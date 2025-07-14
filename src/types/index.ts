@@ -1,4 +1,4 @@
-import type { CanvasRenderingContext2D, Image } from 'https://deno.land/x/canvas@v1.4.1/mod.ts';
+import type { CanvasRenderingContext2D, Image } from 'https://deno.land/x/canvas@v1.4.2/mod.ts';
 
 export interface UnknownObject {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
