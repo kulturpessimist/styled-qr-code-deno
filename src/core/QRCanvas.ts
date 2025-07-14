@@ -7,7 +7,7 @@ import defaultOptions, { RequiredOptions } from './QROptions.ts';
 import gradientTypes from '../constants/gradientTypes.ts';
 import { QRCode, Gradient, FilterFunction, Options } from '../types/index.ts';
 import getMode from '../tools/getMode.ts';
-import { createCanvas, EmulatedCanvas2D, CanvasRenderingContext2D, loadImage, Image } from "https://deno.land/x/canvas@v1.4.1/mod.ts";
+import { createCanvas, EmulatedCanvas2D, CanvasRenderingContext2D, loadImage, Image } from "https://deno.land/x/canvas@v1.4.2/mod.ts";
 import qrcode from 'npm:qrcode-generator';
 import mergeDeep from '../tools/merge.ts';
 import sanitizeOptions from '../tools/sanitizeOptions.ts';
