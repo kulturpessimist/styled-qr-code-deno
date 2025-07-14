@@ -1,7 +1,7 @@
 import cornerSquareTypes from '../../constants/cornerSquareTypes.ts';
 import { CornerSquareType, RotateFigureArgsCanvas, BasicFigureDrawArgsCanvas, DrawArgsCanvas } from '../../types/index.ts';
 
-import { CanvasRenderingContext2D } from 'https://deno.land/x/canvas@v1.4.1/mod.ts';
+import { CanvasRenderingContext2D } from 'https://deno.land/x/canvas@v1.4.2/mod.ts';
 
 export default class QRCornerSquare {
   _context: CanvasRenderingContext2D;
