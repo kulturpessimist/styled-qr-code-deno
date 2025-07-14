@@ -1,7 +1,7 @@
 import dotTypes from '../../constants/dotTypes.ts';
 import { DotType, GetNeighbor, RotateFigureArgsCanvas, BasicFigureDrawArgsCanvas, DrawArgsCanvas } from '../../types/index.ts';
 
-import type { CanvasRenderingContext2D } from 'https://deno.land/x/canvas@v1.4.1/mod.ts';
+import type { CanvasRenderingContext2D } from 'https://deno.land/x/canvas@v1.4.2/mod.ts';
 
 export default class QRDot {
   _context: CanvasRenderingContext2D;
